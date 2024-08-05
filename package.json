@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "vite": "^5.3.5"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.5",
+    "standard": "^17.1.0",
+    "vitest": "^2.0.4"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "type": "module",
+  "name": "advent-js",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
